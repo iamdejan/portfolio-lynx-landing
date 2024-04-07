@@ -1,0 +1,23 @@
+baseURL = "https://overrated.dev/"
+languageCode = "en"
+defaultContentLanguage = "en"
+theme = "lynx"
+
+[params.author]
+  name = "Giovanni Dejan"
+  headline = "An overrated developer"
+  image = "https://avatars.githubusercontent.com/u/15686093?v=4"
+
+  links = [
+    { link = {href = "https://blog.overrated.dev/posts/", text = "Blog"}},
+    { linkedin = "https://id.linkedin.com/in/iamdejan" },
+    { medium = {href = "https://medium.com/giovanni.dejan", text = "[Deprecated] Medium Blog"} },
+    { github = "https://github.com/iamdejan" },
+    { gitlab = "https://gitlab.com/iamdejan" },
+    { mastodon = "https://fosstodon.org/@iamdejan" },
+  ]
+
+[module]
+  [module.hugoVersion]
+    extended = false
+    min = "0.86.1"
