@@ -1,4 +1,4 @@
-baseURL = "https://overrated.dev/"
+baseURL = "https://links.iamdejan.my.id"
 languageCode = "en"
 defaultContentLanguage = "en"
 theme = "lynx"
@@ -9,15 +9,14 @@ theme = "lynx"
   image = "https://avatars.githubusercontent.com/u/15686093?v=4"
 
   links = [
-    { link = {href = "https://blog.overrated.dev/posts/", text = "Blog"}},
+    { link = {href = "https://iamdejan.my.id", text = "My Main Website"}},
+    { link = {href = "https://overrated.lol", text = "My React Superweb"}},
+    { medium = {href = "https://medium.com/@giovanni.dejan", text = "Medium Blog"} },
     { linkedin = "https://id.linkedin.com/in/iamdejan" },
-    { medium = {href = "https://medium.com/giovanni.dejan", text = "[Deprecated] Medium Blog"} },
-    { github = "https://github.com/iamdejan" },
-    { gitlab = "https://gitlab.com/iamdejan" },
-    { mastodon = "https://fosstodon.org/@iamdejan" },
+    { github = "https://github.com/iamdejan" }
   ]
 
 [module]
   [module.hugoVersion]
     extended = false
-    min = "0.86.1"
+    min = "0.135.0"
